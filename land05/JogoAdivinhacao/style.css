@@ -1,0 +1,103 @@
+:root{
+  font-size: 62.5%;
+}
+
+
+body {
+  font-size: 1.6rem;
+  background-image: linear-gradient(to right,#C2E9FB, #A1C4FD);
+  font-family: "Montserrat", sans-serif;
+}
+
+/*screen1*/
+.hide{
+  display: none;
+}
+
+#main{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+
+  background-color: #fff;
+  width: min( 42.8rem, 90%);
+  height: min( 27.3rem, 90%);
+
+  border-radius: 8px;
+
+  text-align: center;
+
+  transform: translate(-50%, -50%);
+}
+
+#main h1{
+  color: #34355B;
+  font-size: 2.4rem;
+  
+  margin-top: 4.8rem;
+
+}
+
+#main p{
+  font-family: "DM Sans", sans-serif;
+  
+}
+
+#num{
+  padding-top: 2.0rem;
+}
+
+input{
+  background-color: #DCE2E9;
+
+  border: none;
+  border-radius: 8px 0px 0px 8px;
+
+  margin-right: -5px;
+  
+
+  width: 40px;
+  height: 51px;
+  padding-left:5px;
+  
+}
+
+button{
+
+
+  border: none;
+  border-radius: 0px 8px 8px 0px;
+  background-color: #7879f1;
+  width: min(8.2rem, 90%);
+  height: 5.3rem;
+
+  color: white;
+  font-family: "DM Sans", sans-serif;
+  font-weight: bold;
+
+
+}
+
+button:hover{
+  cursor: pointer;
+  background-color: #4f4ff7;
+
+}
+
+/*scren2*/
+
+
+.screen2 button{
+
+  width: min(16.6rem, 90%);
+  height: 5.3rem;
+
+  border: none;
+  border-radius:.8rem ;
+  
+
+  
+  
+
+  margin-top:3.3rem ;
+}
